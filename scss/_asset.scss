@@ -44,6 +44,7 @@
 
 			p {
 				font-weight: 400;
+				color: #fff;
 			}
 		} // itemdetails
 
@@ -118,19 +119,8 @@
 .inplayer-paywall h3,
 .inplayer-paywall h4,
 .inplayer-paywall h5,
-.inplayer-paywall h6 {
-	color: #fff;
+.inplayer-paywall h6,
+.inplayer-paywall p {
+	color: #111111;
 	line-height: 1.2;
-}
-.pricing_container {
-	h1,
-	h2,
-	h3,
-	h4,
-	h5,
-	h6,
-	p,
-	a {
-		color: #111111;
-	}
 }
