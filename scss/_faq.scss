@@ -1,6 +1,7 @@
 #faq {
 	padding: 30px;
-
+	background: rgba(#fff, .05);
+	
 	h1 {
 		text-align: center;
 	}
@@ -21,8 +22,8 @@
 
 				a.toggle {
 					display: block;
-					border: 1px solid #7e7e7e;
-					color: #7e7e7e;
+					border: 1px solid rgba(#fff, .2);
+					color: #ffffff;
 					text-decoration: none;
 					padding: 15px 20px;
 					border-radius: 0.3em;
@@ -30,7 +31,7 @@
 					transition: all 0.3s ease-in-out;
 
 					&:hover {
-						background: rgba(255, 255, 255, 0.1);
+						background: rgba(255, 255, 255, 0.05);
 					}
 
 					&.active {
@@ -45,7 +46,8 @@
 					overflow: hidden;
 					display: none;
 					line-height: 1.5em;
-					border: 1px solid #7e7e7e;
+					color: rgba(#fff, .8);
+					border: 1px solid rgba(255,255,255,0.2);
 					border-bottom-right-radius: 0.3em;
 					border-bottom-left-radius: 0.3em;
 					border-top: none;
