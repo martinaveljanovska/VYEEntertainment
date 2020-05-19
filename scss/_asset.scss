@@ -163,7 +163,7 @@
 			.inplayer-buybutton {
 				position: absolute;
 				left: 50%;
-				top: calc(50% + 60px);
+				top: calc(50% + 110px);
 				transform: translate(-50%, -50%);
 			}
 		}
@@ -201,4 +201,13 @@
 			}
 		}
 	}
+}
+.inplayer-paywall h1,
+.inplayer-paywall h2,
+.inplayer-paywall h3,
+.inplayer-paywall h4,
+.inplayer-paywall h5,
+.inplayer-paywall h6 {
+	color: #fff !important;
+	line-height: 1.2;
 }
