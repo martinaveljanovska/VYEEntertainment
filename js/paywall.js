@@ -1,11 +1,11 @@
 var config = {
-	package_id: "95475",
+	package_id: "101360",
 	service_url: "https://services.inplayer.com",
 };
 
 // CREATE ASSET
 function createItemElement(assetId, assetPhoto, assetTitle, assetDesc) {
-	var output = `<div class="package-item"><div class="content" style="background-image:url(${assetPhoto})"><a href="./item.html?id=${assetId}" class="overlay-link"></a></div><div class="item-label"><div class="name">${assetTitle}</div></div><div class="description">${assetDesc}</div></div>`;
+	var output = `<div class="package-item"><div class="content" style="background-image:url(${assetPhoto})"><a href="./item.html?id=${assetId}" class="overlay-link"></a></div><div class="item-label"><div class="name">${assetTitle}</div><span class="description">${assetDesc}</span></div></div>`;
 	return output;
 }
 
