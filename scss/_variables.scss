@@ -3,6 +3,10 @@
 	--primary: #a181ec;
 }
 
-$font1: "Raleway", sans-serif;
-$font2: "Open Sans", sans-serif;
+@font-face {
+	font-family: "Futura";
+	src: url(../fonts/futura_medium_bt.ttf);
+}
 
+$font1: "Futura", sans-serif;
+$font2: "Roboto", sans-serif;

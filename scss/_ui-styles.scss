@@ -20,11 +20,15 @@ p {
 	line-height: 1.5em;
 	color: #ffffff;
 	font-weight: 300;
+	font-family: $font2;
 }
 
 h1,
 h2,
-h3 {
+h3,
+h4,
+h5,
+h6 {
 	font-family: $font1;
 }
 
@@ -54,7 +58,7 @@ h3 {
 	position: relative;
 	cursor: pointer;
 
-	transition: all .3s ease-out;
+	transition: all 0.3s ease-out;
 
 	&:hover {
 		background-color: #fff;
@@ -68,7 +72,7 @@ h3 {
 	background-color: #fff !important;
 	color: #222 !important;
 
-	transition: all .3s ease-out;
+	transition: all 0.3s ease-out;
 
 	&:hover,
 	&:active,
